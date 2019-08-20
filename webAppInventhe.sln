@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webAppInventhe.Server", "webAppInventhe.Server\webAppInventhe.Server.csproj", "{CEE84928-F461-4D00-96F7-C7F072E39286}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webAppInventhe.Client", "webAppInventhe.Client\webAppInventhe.Client.csproj", "{592D8BEC-F32E-4C44-AF33-6FE7C1ECCCE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webAppInventhe.Shared", "webAppInventhe.Shared\webAppInventhe.Shared.csproj", "{53BA1EF5-2256-4C54-878E-FFA9D472132C}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "webAppInventhe.ARM", "webAppInventhe.ARM\webAppInventhe.ARM.deployproj", "{F0DF5621-556A-4B9C-B4D8-20B1B9F0416E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64209B8F-E0D4-4866-A02E-9F99F24641B5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		azure-pipeline.yml = azure-pipeline.yml
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webAppInventhe.Test", "webAppInventhe.Test\webAppInventhe.Test.csproj", "{D60B6F21-4CAC-4909-B4DC-C8C586D62426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE84928-F461-4D00-96F7-C7F072E39286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE84928-F461-4D00-96F7-C7F072E39286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE84928-F461-4D00-96F7-C7F072E39286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE84928-F461-4D00-96F7-C7F072E39286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592D8BEC-F32E-4C44-AF33-6FE7C1ECCCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592D8BEC-F32E-4C44-AF33-6FE7C1ECCCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592D8BEC-F32E-4C44-AF33-6FE7C1ECCCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592D8BEC-F32E-4C44-AF33-6FE7C1ECCCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BA1EF5-2256-4C54-878E-FFA9D472132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BA1EF5-2256-4C54-878E-FFA9D472132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BA1EF5-2256-4C54-878E-FFA9D472132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BA1EF5-2256-4C54-878E-FFA9D472132C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DF5621-556A-4B9C-B4D8-20B1B9F0416E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DF5621-556A-4B9C-B4D8-20B1B9F0416E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DF5621-556A-4B9C-B4D8-20B1B9F0416E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DF5621-556A-4B9C-B4D8-20B1B9F0416E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60B6F21-4CAC-4909-B4DC-C8C586D62426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60B6F21-4CAC-4909-B4DC-C8C586D62426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60B6F21-4CAC-4909-B4DC-C8C586D62426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60B6F21-4CAC-4909-B4DC-C8C586D62426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33AD3FAA-D22E-4F09-9E2C-C642E70B8140}
+	EndGlobalSection
+EndGlobal
